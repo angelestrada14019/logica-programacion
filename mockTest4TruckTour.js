@@ -1,4 +1,4 @@
-function mockTest4(petrolpumps) {
+function mockTest4TruckTour(petrolpumps) {
     let petrol=0;
     let fisrt =0;
     let i=fisrt;
@@ -15,4 +15,4 @@ function mockTest4(petrolpumps) {
     return fisrt
 }
 let petrolpumps=[ [ 7, 5 ], [ 6, 8 ], [ 7, 4 ] ]
-console.log(mockTest4(petrolpumps));
+console.log(mockTest4TruckTour(petrolpumps));
