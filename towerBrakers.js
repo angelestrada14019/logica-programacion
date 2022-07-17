@@ -10,3 +10,5 @@ function towerBrakers(n,m) { //n=1 win 2, m=1 win 1,pares win 2, impares win 1
 let n =4; //number towers
 let m=10; //height tower
 //cuando el jugador actual no pueda hacer movimiento pierde el juego
+
+towerBrakers(n,m)
