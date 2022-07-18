@@ -1,9 +1,8 @@
 let r1=[-20, -3916237, -357920, -3620601, 7374819, -7330761, 30, 6246457, -6461594, 266854, -520, -470]
-let r2=[5,4,3,2]
+let r2=[4,4,2,1,3]
 let r3=[2,5,8,10,15,18,21,30,33]
 function closestNumbers(arr) {
-    arr.sort((a,b)=>a-b);// 2,5,8,10,15,18,21,30,33
-    console.log(arr);
+    arr.sort((a,b)=>a-b);
     let minDiff=arr[1]-arr[0]
     let resultado=[]
     let actualDiff=0;
@@ -20,4 +19,4 @@ function closestNumbers(arr) {
     }
     console.log(resultado);
 }
-closestNumbers(r3)
+closestNumbers(r2)
